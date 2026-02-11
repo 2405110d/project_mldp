@@ -69,3 +69,4 @@ if st.button("Predict Subscription Probability"):
         st.warning(f"Low probability of subscription ({probability:.2%})")
 
     st.progress(float(probability))
+    
