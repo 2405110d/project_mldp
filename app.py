@@ -3,9 +3,6 @@ import joblib
 import pandas as pd
 import numpy as np
 
-# -----------------------------------
-# Load trained model
-# -----------------------------------
 model = joblib.load("model.pkl")
 
 st.set_page_config(page_title="SmartDeposit", layout="wide")
